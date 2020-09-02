@@ -1,0 +1,440 @@
+.fontSizeEdu {
+    font-size: 2rem;
+    font-weight: 500;
+
+}
+
+.ahover:hover {
+    background-color: darkslategray;
+    color: #fff;
+}
+
+/* .navInsertion::before{
+    background: url('img/Edutec.jpg')no-repeat center center/cover;
+    content:"";
+/* background-color: black; */
+/* position: absolute;
+top: 0px;
+left: 0px;
+height: 75%;
+width: 100%;
+z-index: -1;
+opacity: 0.6;
+/* } */
+
+.margin_middle {
+    /* margin-top:20px; */
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.content_middle {
+    color: black;
+    font-size: 20px;
+}
+
+.center_div {
+    padding-top: 30px;
+    box-sizing: border-box;
+    /* border:2px solid black; */
+}
+
+.edu_details{
+    background: url('img/sunscreen.jpg')no-repeat center center/cover;
+}
+
+.edu_details {
+    padding: 140px 200px;
+}
+
+.heading {
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color:#ebdcbe
+    /* color:white; */
+}
+
+.localHeading {
+    font-size: 26px;
+    font-weight: 400;
+    text-align:left;
+    color: #ebdcbe;
+    text-shadow: 1px 1px 0px #dedddb;
+}
+
+.extra_activities {
+    padding: 10px;
+    border: 2px solid white;
+    width: 20rem;
+
+}
+
+.btn_edit {
+    padding: 10px;
+    border-radius: 0;
+    border: 2px solid white;
+}
+
+.black {
+    background: burlywood;
+}
+
+.black:hover {
+    background-color: transparent;
+}
+
+nav a {
+    color: black;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.decor li a.active {
+    color: #3355b7;
+}
+.decor li a{
+    font-weight: 100;
+
+}
+.main_div {
+    padding: 0 190px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+
+
+
+/* Contact section  */
+#contact {
+    position: relative;
+}
+
+#contact::before {
+    content: "";
+    background: url('img/edu1.jpg')no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+
+}
+
+.contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+.contact-box input,
+.contact-box textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+
+.contact-box form {
+    width: 40%;
+
+}
+
+.contact-box label {
+    font-size: 1.3rem;
+    font-weight:bolder;
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+}
+
+
+.h-primary {
+    font-size:50px;
+    padding: 12px;
+}
+
+.h-secondary {
+    font-size: 2.1rem;
+    padding: 12px;
+}
+
+
+.btn {
+    padding: 6px 20px;
+    border: 2px solid white;
+    /* background-color: brown; */
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.center {
+    text-align: center;
+}
+.margin_button{
+    padding:0 120px;
+}
+.underline_heading{
+    padding:10px 0;
+    border-bottom:2px solid black;
+    text-shadow: 2px 2px 0px #dedddb;
+    font-size:23px;
+
+}
+
+.company_info{
+    box-sizing: border-box;
+    font-size: 38px;
+    text-shadow: 2px 2px 0px #dedddb;
+    color: #5d5b5b!important;
+    letter-spacing: 2px;
+    line-height: 37px;
+    margin-top: 30px;
+    padding-top:30px;
+    font-weight:500;
+    text-align: center;
+}
+
+.border_style{
+    border:2px solid grey;
+    padding:30px;
+    padding-top:30px;
+    border-radius: 5px;
+    margin:10px 20px;
+}
+.font_style{
+    padding:20px;
+    margin:10px 20px;
+    /* color:green */
+}
+
+.style_cont{
+    margin-top:50px;
+    padding-top:10px;
+}
+
+.font_about_style{
+    font-size:20px;
+    color:black;
+}
+.design{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    border:1px solid black;
+    background-color:grey;
+    margin:20px 95px;
+
+}
+.card_styling{
+    width:24rem;
+}
+.head_change{
+margin: auto;
+    padding: 0 12px;
+   font-size:54px;
+    color: #4f4848;
+}
+
+
+
+
+@media screen and (max-width:928px){
+
+    .edu_details {
+        padding: 140px 150px;
+    }
+    .heading {
+        font-size: 50px;
+        font-weight: 500;
+        /* color: white; */
+    }
+
+    .contact-box form{
+        width:70%;
+
+    }
+
+    .head_change{
+        font-size:45px;
+    }
+    .card_styling {
+        width: 19rem;
+    }
+}
+
+.price_styling{
+    width: 30rem; height:31rem;
+}
+.price_styling_extra{
+    width: 30rem; height:34rem;
+}
+@media screen and (max-width:830px)
+{
+    .card_styling {
+        width: 34rem;
+        margin: 0px 85px;
+    }
+}
+
+@media screen and (max-width:752px){
+
+    .heading {
+        font-size: 44px;
+        font-weight: 500;
+        /* color: white; */
+    }
+    .edu_details {
+        padding: 140px 120px;
+    }
+
+    .font_style {
+        padding: 40px 0;
+        margin: 10px 20px;
+    }
+
+    .border_style {
+        border: 2px solid grey;
+        padding: 16px;
+        padding-top: 19px;
+        border-radius: 5px;
+        margin: 40px 40px;
+    }
+    .card_styling {
+        width: 28rem;
+        margin: 0px 50px;
+    }
+    .head_change{
+        margin: auto;
+        font-size:38px;
+        }
+}
+
+@media screen and (max-width:638px){
+
+    .heading {
+        font-size: 32px;
+        
+    }
+    .company_info {
+      
+        font-size: 24px;
+        
+    }
+    .edu_details {
+        padding: 140px 100px;
+    }
+    .head_change{
+        margin: auto;
+        font-size:27px;
+        }
+
+        .card_styling {
+            width: 24rem;
+            margin: 0px 15px;
+        }
+        .localHeading {
+            font-size: 26px;
+            font-weight: 400;
+            text-align:left;
+            color: #ebdcbe;
+            text-shadow: 0 0 0 #dedddb;
+        }
+            
+        }
+
+        .comp_head{
+            font-size:18px;
+        }
+}
+
+@media screen and (max-width:500px){
+
+    .card_styling {
+        width: 18rem;
+        margin: 0px 0px;
+    }
+    .head_change{
+        margin: auto;
+        font-size:25px;
+        }
+
+        .heading {
+            font-size: 30px;
+            
+        }
+        .localHeading {
+            font-size: 17px;
+            font-weight: 400;
+            text-shadow: 0 0 0 #dedddb;
+        }
+
+        .edu_details {
+            padding: 120px 50px;
+        }
+        .border_style {
+           
+            padding: 8px;
+            padding-top: 11px;
+            margin: 43px 0;
+            font-size: initial;
+        }
+        .extra_activities {
+            padding: 10px;
+            border: 2px solid white;
+            width: 16rem;
+        
+        }
+        .edu_details {
+            padding: 140px 70px;
+        }
+
+}
+@media screen and (max-width:500px){
+
+    .card_styling {
+        width: 15rem;
+        margin: 0px 0px;
+    }
+    .extra_activities {
+        padding: 10px;
+        border: 2px solid white;
+        width: 13rem;
+    
+    }
+    .edu_details {
+        padding: 140px 40px;
+    }
+}
+
+@media screen and (max-width:412px){
+    .edu_details {
+        padding: 110px 40px;
+    }
+    .border_style{
+        padding: 4px;
+    padding-top: 16px;
+    }
+    .price_styling{
+     height:35rem;
+    }
+    .price_styling_extra{
+         height:38rem;
+    }
+}

@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="eduProject.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>EduTech</title>
+
+</head>
+
+<body>
+    <section>
+        <nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-dark" active>
+            <!-- <nav class="navbar navbar-dark bg-primary"> -->
+            <a class="navbar-brand fontSizeEdu" href="#">eduVue</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto decor">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pricing.html">Pricing</a>
+                    </li>
+
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#">Starting A Business</a>
+                    </li> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            More
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="Team.html">Support</a>
+                            <a class="dropdown-item" href="#">Help Center</a>
+                            <a class="dropdown-item" href="Edu_About.html">About US</a>
+                            <a class="dropdown-item" href="#">LinkedIn</a>
+
+                        </div>
+                    </li>
+                    <!-- <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li> -->
+                </ul>
+                <div class="form-inline my-2 my-lg-0">
+                    <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
+                    <button class="btn btn-outline-success my-2 my-sm-0 ahover" data-toggle="modal"
+                        data-target="#signupModal">Sign up</button>
+                    <button class="btn btn-outline-success my-2 my-sm-0 ahover" data-toggle="modal"
+                        data-target="#loginModal">Login</button>
+                </div>
+        </nav>
+    </section>
+
+
+    <!-- Modal Login Modal -->
+    <!-- Button trigger modal -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Login to eduvue</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signupModalLabel">Get an eduvue account</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Confirm Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                          </div>
+                        <div class="form-group form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section>
+        <div class="edu_details d-flex-column justify-content-start align-item-center">
+            <h1 class="heading">Feel Free To Grow </h1>
+            <h1 class="heading">Your Business With Our Institute </h1>
+            <p class="localHeading"> Get lessons , tips and strategies from our experts </p>
+            <form class="form-inline">
+                <div class="form-group mb-2">
+                    <label for="staticEmail2" class="sr-only">Email</label>
+                    <input type="text" class=" extra_activities" placeholder="email@example.com">
+                </div>
+           
+                <button type="submit" class="btn btn-primary mb-2 btn_edit" style="margin:0px">Get Info</button>
+            </form>
+            <p class="localHeading"> We Offer Innovative Tools, To deliver high quality Service which Increments their
+                Business Management Efficiency. </p>
+          
+        </div>
+    </section>
+   
+
+    <section class="my-4" style="background: beige;">
+        <div class="container">
+            <div class="company_info">
+                <p class="text-center">We are engaged in providing technology to academic institutions to transform
+                    their offline
+                    business to online and to improve e-learning
+                    for everyone using technology.</p>
+                <h4 class="comp_head">Transforming the traditional Online Preparation practices</h4>
+                <div class="container d-flex justify-content-center style_cont">
+                    <div class=" border_style  mx-4">Analog</div>
+
+                    <div><i class="fa fa-arrow-right font_style " style="font-size:50px;"></i></div>
+
+                    <div class="border_style  mx-4">Digital</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="center_div my-4">
+            <h1 class=" head_change text-center">Key Differentiators of Eduvue</h1>
+            <div class="container-fluid">
+                <div class="row ml-4">
+                    <div class="col-sm">
+                        <div class="card my-5 card_styling">
+                            <img class="card-img-top" src="img/webiste_design.png" alt="Card image cap"
+                                style="height:15rem">
+                            <div class="card-body">
+                                <h5 class="card-title underline_heading">Website Design</h5>
+                                <p class="card-text">We create your personal space exclusively for you, with the help of
+                                    our
+                                    innovative tools, to make you stand out among others.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card my-5 card_styling">
+                            <img class="card-img-top" src="img/Enquiry.jpg" alt="Card image cap" style="height:15rem">
+                            <div class="card-body">
+                                <h5 class="card-title underline_heading">Enquiry App & Registration App</h5>
+                                <p class="card-text">This power an institute to faster effective monitoring of the
+                                    enquiry
+                                    related and admission related activities, being done over the different branches of
+                                    the
+                                    Institute on different timings.
+                                </p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card my-5 card_styling">
+                            <img class="card-img-top" src="img/fl3.jpg" alt="Card image cap" style="height:15rem">
+                            <div class="card-body">
+                                <h5 class="card-title underline_heading">Real Environment Feel</h5>
+                                <p class="card-text">Our research & technology manage to deliver an outstanding
+                                    experience
+                                    of taking exam on real environment, by making you fully aware of the exam pattern &
+                                    exam
+                                    window in advance.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card my-5 card_styling">
+                            <img class="card-img-top" src="img/institute.jpg" alt="Card image cap" style="height:15rem">
+                            <div class="card-body">
+                                <h5 class="card-title underline_heading">Institute App</h5>
+
+                                <p class="card-text">It gives to the institute a Central Tracking System for all
+                                    activities
+                                    by its innovative Tools & an online environment which increases the efficiency of
+                                    overall management.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card my-5 card_styling">
+                            <img class="card-img-top" src="img/teacher.jpg" alt="Card image cap" style="height:15rem">
+                            <div class="card-body">
+                                <h5 class="card-title underline_heading">Teacher App</h5>
+                                <p class="card-text">This platform give the teacher the flexibility & opportunity to
+                                    utilise
+                                    their full potential and uncover the new paradigms by exploring new methods.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card my-5 card_styling">
+                            <img class="card-img-top" src="img/students.jpg" alt="Card image cap" style="height:15rem">
+                            <div class="card-body">
+                                <h5 class="card-title underline_heading">Student App</h5>
+                                <p class="card-text">Through this platform we are offering the mobilisation of
+                                    classroom.
+                                    old preparation methods are being transformed, by making them more relevant to the
+                                    digital age.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card my-5 card_styling">
+                            <img class="card-img-top" src="img/library.jpg" alt="Card image cap" style="height:15rem">
+                            <div class="card-body">
+                                <h5 class="card-title underline_heading">Question Bank(E-Library)</h5>
+                                <p class="card-text">Offers the integrated platform for different type of study material
+                                    need altogether such as test-series practice sets, class notes etc.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm">
+                        <div class="card my-5 card_styling">
+                            <img class="card-img-top" src="img/skill.jpg" alt="Card image cap" style="height:15rem">
+                            <div class="card-body">
+                                <h5 class="card-title underline_heading">Skill Test</h5>
+                                <p class="card-text">It offers platform for assessing typing skills, MS office,Excel
+                                    skill
+                                    of the candidate,containing audio-speech facility. used is various competitive
+                                    exams.
+                                </p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card my-5 card_styling">
+                            <img class="card-img-top" src="img/chat.png" alt="Card image cap" style="height:15rem">
+                            <div class="card-body">
+                                <h5 class="card-title underline_heading">Chat</h5>
+                                <p class="card-text">It offers an integrated 3 way communication module, between
+                                    institute,
+                                    teacher & student.
+                                </p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </section>
+ 
+    <footer>
+        <div class="center">
+            Copyright &copy; www.eduvue.com. All rights reserved.
+        </div>
+    </footer>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+   
+</body>
+
+</html>
